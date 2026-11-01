@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MindAR AR Target Images (3 Targets)</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f4f6f9;
+      margin: 0;
+      padding: 30px 20px;
+      color: #1f2328;
+    }
+    .header {
+      max-width: 900px;
+      margin: 0 auto 30px;
+      text-align: center;
+    }
+    h1 {
+      color: #0969da;
+      margin-bottom: 8px;
+    }
+    p {
+      color: #57606a;
+      font-size: 16px;
+      margin-top: 0;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .card {
+      background: #ffffff;
+      border: 1px solid #d0d7de;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card-badge {
+      display: inline-block;
+      background: #0969da;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 12px;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+      align-self: center;
+    }
+    .card h2 {
+      font-size: 18px;
+      margin: 0 0 8px 0;
+    }
+    .card-desc {
+      font-size: 13px;
+      color: #57606a;
+      margin-bottom: 16px;
+    }
+    .img-wrap {
+      border: 2px dashed #0969da;
+      border-radius: 8px;
+      padding: 10px;
+      background: #fafbfc;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 200px;
+    }
+    .img-wrap img {
+      max-width: 100%;
+      max-height: 220px;
+      border-radius: 4px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .model-info {
+      font-size: 13px;
+      background: #eef5ff;
+      border-left: 4px solid #0969da;
+      padding: 8px 12px;
+      border-radius: 4px;
+      text-align: left;
+      margin-top: auto;
+    }
+    .btn-download {
+      display: inline-block;
+      margin-top: 12px;
+      background: #0969da;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .btn-download:hover {
+      background: #054da7;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🎯 3 Different MindAR Target Images</h1>
+    <p>Point your camera at any of these three target designs to trigger their respective 3D AR models!</p>
+  </div>
+
+  <div class="grid">
+    <!-- Target 1 -->
+    <div class="card">
+      <div class="card-badge">Target 1 (Index 0)</div>
+      <h2>Business Card</h2>
+      <div class="card-desc">High-contrast geometric business card design.</div>
+      <div class="img-wrap">
+        <img src="target_1_card.png" alt="Target 1 Card">
+      </div>
+      <div class="model-info">
+        <strong>✨ 3D Model:</strong> Floating Softmind Robot Avatar with bounce animation.
+      </div>
+      <a href="target_1_card.png" download class="btn-download">Download Image 1</a>
+    </div>
+
+    <!-- Target 2 -->
+    <div class="card">
+      <div class="card-badge">Target 2 (Index 1)</div>
+      <h2>Band Raccoon</h2>
+      <div class="card-desc">Colorful artistic raccoon illustration.</div>
+      <div class="img-wrap">
+        <img src="target_2_raccoon.png" alt="Target 2 Raccoon">
+      </div>
+      <div class="model-info">
+        <strong>✨ 3D Model:</strong> Animated 3D Raccoon character with 360° continuous rotation.
+      </div>
+      <a href="target_2_raccoon.png" download class="btn-download">Download Image 2</a>
+    </div>
+
+    <!-- Target 3 -->
+    <div class="card">
+      <div class="card-badge">Target 3 (Index 2)</div>
+      <h2>Band Bear</h2>
+      <div class="card-desc">Vibrant artistic bear with acoustic guitar illustration.</div>
+      <div class="img-wrap">
+        <img src="target_3_bear.png" alt="Target 3 Bear">
+      </div>
+      <div class="model-info">
+        <strong>✨ 3D Model:</strong> Animated 3D Bear model with continuous spatial rotation.
+      </div>
+      <a href="target_3_bear.png" download class="btn-download">Download Image 3</a>
+    </div>
+  </div>
+</body>
+</html>

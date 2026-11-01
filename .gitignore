@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+**/node_modules/
+.venv/
+.cache/
+
+# OS specific files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Logs and environment
+*.log
+.env
+.env.local
+
+# Dev build temporary artifacts
+dist-dev/
+**/dist-dev/
